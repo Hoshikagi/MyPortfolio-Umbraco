@@ -1,0 +1,61 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.MyPortfolio>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <nav>
+    <ul class ul-header>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work-experience">Work Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="container">
+    <h1>Nikoloz Chachanidze</h1>
+    <h2>.NET Developer</h2>
+    <h3>Portfolio</h3>
+    <p>Hi, I'm Nikoloz and I'm a .NET developer with experience in building web applications using ASP.NET and C#. I have a passion for clean, efficient code and I enjoy learning and experimenting with new technologies and frameworks.</p>
+    <h3>Education</h3>
+    <ul id="education" class="education">
+        <li class="school">
+            <h4>21 Public School</h4>
+            <p>School 21 is a vibrant and diverse learning community located in the heart of the city. I've gained much knowledge there and it helped me to get better as a person and better as a student
+            </p>
+        </li>
+        <liclass="school">
+            <h4>University Of Georgia</h4>
+            <p>Bachelor Degree in Business</p>
+        </li>
+    </ul>
+    <h3 id="work-experience">Work Experience</h3>
+    <ul class="work-experience">
+        <li class="job">
+            <h4>Swiss Capital</h4>
+            <p>Years active: 2020-2021 Credit Expert</p>
+        </li>
+        <li class="job">
+            <h4>MBC</h4>
+            <p>Years active: 2021-2022 Credit Expert</p>
+        </li>
+    </ul>
+    <h3>Skills</h3>
+    <ul id="skills" class="skills">
+        <li class="skill">ASP.NET Core</li>
+        <li class="skill">Clean, efficient code</li>
+        <li class="skill">C#</li>
+         <li class="skill">Problem solving</li>
+    </ul>
+    <p>Contact me at chachanidzenika1997@gmail.com</a></p>
+</div>
+    </body>
+    </html>
